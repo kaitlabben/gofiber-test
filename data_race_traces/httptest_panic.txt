@@ -1,0 +1,17 @@
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal 0xc0000005 code=0x0 addr=0x98 pc=0x139e6da]
+
+goroutine 237 [running]:
+github.com/valyala/fasthttp.(*HostClient).Do(0xc000441d40?, 0xc00000d500?, 0x139d50b?)
+        C:/Users/kaitlabben/go/pkg/mod/github.com/valyala/fasthttp@v1.51.0/client.go:1236
+ +0x1a
+github.com/gofiber/fiber/v2.(*Agent).bytes(0xc000148460)
+        C:/Users/kaitlabben/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.4/client.go:783 
++0x3a7
+github.com/gofiber/fiber/v2.(*Agent).Bytes(0xc000148460?)
+        C:/Users/kaitlabben/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.4/client.go:736 
++0x70
+main.sendReq({0x0, {0x145cd35, 0x5}, {0x149a324, 0x178}, {0x1480ece, 0x24}})
+        C:/Users/kaitlabben/go/src/httpclienttests/httptest/main.go:68 +0x154
+created by main.main in goroutine 1
+        C:/Users/kaitlabben/go/src/httpclienttests/httptest/main.go:51 +0x1c5

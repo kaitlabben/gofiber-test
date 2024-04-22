@@ -1,0 +1,34 @@
+{"level":"error","response_user":"Valen","expected_user":"Hajen","message":"got wrong user in resp
+onse"}
+{"level":"error","response_user":"Hajen","expected_user":"Valen","message":"got wrong user in resp
+onse"}
+{"level":"error","method":"get","status_code":404,"message":"failed sending request to game"}
+{"level":"error","error":"\"Syntax error at index 1: invalid char\\n\\n\\tCannot GET /balance/bala
+nce\\n\\t.^.........................\\n\"","user_name":"Valen","message":"failed unmarshaling bala
+nce response"}
+{"level":"error","response_user":"","expected_user":"Valen","message":"got wrong user in response"
+}
+{"level":"error","method":"get","status_code":404,"message":"failed sending request to game"}     
+{"level":"error","error":"\"Syntax error at index 1: invalid char\\n\\n\\tCannot GET /balance/bala
+nce\\n\\t.^.........................\\n\"","user_name":"Hajen","message":"failed unmarshaling bala
+nce response"}
+{"level":"error","response_user":"","expected_user":"Hajen","message":"got wrong user in response"
+}
+{"level":"error","response_user":"Hajen","expected_user":"Valen","message":"got wrong user in resp
+onse"}
+{"level":"error","response_user":"Valen","expected_user":"Hajen","message":"got wrong user in resp
+onse"}
+{"level":"error","method":"get","status_code":404,"message":"failed sending request to game"}
+{"level":"error","error":"\"Syntax error at index 1: invalid char\\n\\n\\tCannot GET /balance/bala
+nce\\n\\t.^.........................\\n\"","user_name":"Hajen","message":"failed unmarshaling bala
+nce response"}
+{"level":"error","response_user":"","expected_user":"Hajen","message":"got wrong user in response"
+}
+{"level":"error","method":"get","status_code":404,"message":"failed sending request to game"}     
+{"level":"error","error":"\"Syntax error at index 1: invalid char\\n\\n\\tCannot GET /balance/bala
+nce\\n\\t.^.........................\\n\"","user_name":"Valen","message":"failed unmarshaling bala
+nce response"}
+{"level":"error","response_user":"","expected_user":"Valen","message":"got wrong user in response"
+}
+
+Process finished with the exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
